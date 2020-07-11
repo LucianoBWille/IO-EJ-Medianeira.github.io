@@ -1,4 +1,4 @@
-# site-ej
+# Site da Input Output - Empresa Júnior de Ciência da Computação
 
 ## Project setup
 ```

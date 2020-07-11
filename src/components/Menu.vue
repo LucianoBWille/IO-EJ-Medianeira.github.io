@@ -4,26 +4,26 @@
             <q-icon class="icon" name="home"/>
         </router-link>
         <br>
-        <router-link to="/about">
+        <router-link to="/services">
             <!--<q-icon class="icon" name="build"/>
             <q-icon class="icon" name="handyman"/>-->
             <q-icon class="icon" name="construction"/>
         </router-link>
         <br>
-        <router-link to="/about">
+        <router-link to="/internalProjects">
             <q-icon class="icon" name="school"/>
         </router-link>
         <br>
-        <router-link to="/about">
+        <router-link to="/contact">
             <q-icon class="icon" name="phone_enabled"/>
         </router-link>
         <br>
-        <router-link disabled to="/about">
+        <router-link disabled to="/evaluation">
             <q-icon class="icon" name="message"/>
             <!--<q-icon class="icon" name="edit"/>-->
         </router-link>
         <br>
-        <router-link to="/about">
+        <router-link to="/team">
             <q-icon class="icon" name="group"/>
         </router-link>
         <br>
