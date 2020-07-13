@@ -1,29 +1,29 @@
 <template>
     <div class="ioMenu">
-        <router-link to="/">
+        <router-link to="/" title="Página Inicial">
             <q-icon class="icon" name="home"/>
         </router-link>
         <br>
-        <router-link to="/services">
+        <router-link to="/services" title="Serviços">
             <!--<q-icon class="icon" name="build"/>
             <q-icon class="icon" name="handyman"/>-->
             <q-icon class="icon" name="construction"/>
         </router-link>
         <br>
-        <router-link to="/internalProjects">
+        <router-link to="/internalProjects" title="Projetos Internos">
             <q-icon class="icon" name="school"/>
         </router-link>
         <br>
-        <router-link to="/contact">
+        <router-link to="/contact" title="Contato">
             <q-icon class="icon" name="phone_enabled"/>
         </router-link>
         <br>
-        <router-link disabled to="/evaluation">
+        <router-link disabled to="/evaluation" title="Avaliações dos Clientes">
             <q-icon class="icon" name="message"/>
             <!--<q-icon class="icon" name="edit"/>-->
         </router-link>
         <br>
-        <router-link to="/team">
+        <router-link to="/team" title="Equipe da I/O">
             <q-icon class="icon" name="group"/>
         </router-link>
         <br>

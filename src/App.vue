@@ -17,7 +17,10 @@ export default {
   data () {
     return {
     }
-  }
+  },
+  mounted () {
+    this.$store.commit('getGithubRepos');
+  },
 }
 </script>
 
