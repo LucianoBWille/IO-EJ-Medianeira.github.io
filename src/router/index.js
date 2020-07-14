@@ -11,23 +11,7 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/team',
-    name: 'Equipe',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Team.vue')
-  },
-  {
-    path: '/contact',
-    name: 'Contato',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
-  },
-  {
-    path: '/services',
+    path: '/Servicos',
     name: 'Serviços',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -35,7 +19,23 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/Services.vue')
   },
   {
-    path: '/evaluation',
+    path: '/Projetos-Internos',
+    name: 'Projetos Internos',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/InternalProjects.vue')
+  },
+  {
+    path: '/Contato',
+    name: 'Contato',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+  },
+  {
+    path: '/Avaliacao',
     name: 'Avaliação',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -43,13 +43,13 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/Evaluation.vue')
   },
   {
-    path: '/internalProjects',
-    name: 'Projetos Internos',
+    path: '/Equipe',
+    name: 'Equipe',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/InternalProjects.vue')
-  }
+    component: () => import(/* webpackChunkName: "about" */ '../views/Team.vue')
+  },
 ]
 
 const router = new VueRouter({

@@ -4,26 +4,26 @@
             <q-icon class="icon" name="home"/>
         </router-link>
         <br>
-        <router-link to="/services" title="Serviços">
+        <router-link to="/Servicos" title="Serviços">
             <!--<q-icon class="icon" name="build"/>
             <q-icon class="icon" name="handyman"/>-->
             <q-icon class="icon" name="construction"/>
         </router-link>
         <br>
-        <router-link to="/internalProjects" title="Projetos Internos">
+        <router-link to="/Projetos-Internos" title="Projetos Internos">
             <q-icon class="icon" name="school"/>
         </router-link>
         <br>
-        <router-link to="/contact" title="Contato">
+        <router-link to="/Contato" title="Contato">
             <q-icon class="icon" name="phone_enabled"/>
         </router-link>
         <br>
-        <router-link disabled to="/evaluation" title="Avaliações dos Clientes">
+        <router-link disabled to="/Avaliacao" title="Avaliações dos Clientes">
             <q-icon class="icon" name="message"/>
             <!--<q-icon class="icon" name="edit"/>-->
         </router-link>
         <br>
-        <router-link to="/team" title="Equipe da I/O">
+        <router-link to="/Equipe" title="Equipe da I/O">
             <q-icon class="icon" name="group"/>
         </router-link>
         <br>
