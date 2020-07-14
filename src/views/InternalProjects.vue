@@ -1,12 +1,10 @@
 <template>
-    <div>
+    <div class="internal-projects">
         <h1>Projetos Internos</h1>
         <ul>
-            <li v-for="value in info" :key="value.id">
-                <h4>{{ value.name }}</h4>
+            <li class="project" v-for="value in info" :key="value.id">
+                <h2>{{ value.name }}</h2>
                 <p>{{ value.description }}</p>
-                <p>Criado em: {{ value.created_at }}</p>
-                <p>Atualizado em: {{ value.updated_at }}</p>
                 <a :href="value.html_url" target="_blank">Repositório do projeto no Github</a>
             </li>
         </ul>
