@@ -1,5 +1,9 @@
 # Site da Input Output - Empresa Júnior de Ciência da Computação
 
+Neste Repositório está sendo armazenado e desenvolvido o site da empresa Input Output.
+
+Para o desenvolvimento deste site está sendo utilizado o framework Vue.js juntamente com os plugins vuex, vue-router e axios, além dos plugins padrão (babel e eslint).
+
 ## Project setup
 ```
 npm install
